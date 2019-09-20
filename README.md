@@ -14,6 +14,6 @@ docker build -t bazel_cache:0.0.1 .
 ```
 docker run -it --rm --name=bazelcache \
   -p3232:3232
-  -v path/to/local/cache_dir:/data/baze/cache \
+  -v path/to/local/cache_dir:/data/bazel/cache \
   bazel_cache:0.0.1
 ```
